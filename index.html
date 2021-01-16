@@ -30,43 +30,67 @@
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<!---- Font awesom link local ----->
 	</head>
-	<body>
-		<!DOCTYPE html>
-		<html>
-		
-		<head>
-		  <meta charset="utf-8" />
-		  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		  <title>Card</title>
-		  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		</head>
-		<img src="" alt="Logo">
-		<body>
-		  <div id="card">
-			<div id="card-content">
-			  <div id="card-title">
-				<h2>LOGIN</h2>
-				<div class="underline-title"></div>
-			  </div>
-			  <form method="post" class="form">
-				<label for="user-email" style="padding-top:13px">
-					&nbsp;Email
-				  </label>
-				<input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
-				<div class="form-border"></div>
-				<label for="user-password" style="padding-top:22px">&nbsp;Password
-				  </label>
-				<input id="user-password" class="form-content" type="password" name="password" required />
-				<div class="form-border"></div>
-				<a href="#">
-				  <legend id="forgot-pass">Forgot password?</legend>
-				</a>
-				<input id="submit-btn" type="submit" name="submit" value="LOGIN" />
-				<a href="#" id="signup">Don't have account yet?</a>
-			  </form>
-			</div>
-		  </div>
-		</body>
+	<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+<body>
+  <div class="container">
+    <div class="box">
+      <input type="checkbox" id="toggle" class="box__toggle" hidden>
+      <img src="https://images.unsplash.com/photo-1444212477490-ca407925329e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2560&q=80" alt="Picture by Autumn Studio" class="box__image">
+      <form class="form form--register" action="">
+        <h1 class="form__title">Sign up</h1>
+
+        <div class="form__helper">
+          <input type="text" name="user" id="new-user" placeholder="User" class="form__input" />
+          <label class="form__label" for="new-user">User</label>
+        </div>
+
+        <div class="form__helper">
+          <input type="email" name="email" id="email" placeholder="Email" class="form__input" />
+          <label class="form__label" for="email">Email</label>
+        </div>
+
+        <div class="form__helper">
+          <input type="password" name="password" id="new-user-password" placeholder="Password" class="form__input" />
+          <label class="form__label" for="new-user-password">Password</label>
+        </div>
+
+        <div class="form__helper">
+          <input type="password" name="password" id="confirm-password" Placeholder="Confirm password" class="form__input" />
+          <label class="form__label" for="confirm-password">Confirm password</label>
+        </div>
+
+        <button type="submit" class="form__button">Register</button>
+
+        <p class="form__text">Already have an account? <label for="toggle" class="form__link">Sign in!</label>
+      </form>
+
+      <form class="form form--login" action="">
+        <h1 class="form__title">Sign in</h1>
+
+        <div class="form__helper">
+          <input type="text" name="user" id="user" placeholder="User" class="form__input" />
+          <label class="form__label" for="user">User</label>
+        </div>
+
+        <div class="form__helper">
+          <input type="password" name="password" id="password" placeholder="Password" class="form__input" />
+          <label class="form__label" for="password">Password</label>
+        </div>
+
+        <button type="submit" class="form__button">Login</button>
+
+        <p class="form__text">Don't have an account? <label for="toggle" class="form__link">Sign up!</label>
+      </form>
+    </div>
+  </div>
+</body>
+
+
+
+Resources
+
 		
 		</html>
 
