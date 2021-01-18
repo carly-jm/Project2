@@ -6,7 +6,7 @@ README Content
 This app will model Instagram as a social media platform for pet lovers to create accounts for their pets and connect with other pet lovers. We plan to create the following features: the ability to create an account, add photos with captions, and search for other users or posts. 
 If we have time: follow other users, add an ability to like photos, add comments, direct message users, and add videos (or the links from YouTube). Double bonus: set up the application to send the user an email for various reasons.
 
-[Idea_Image](./assets/p2layoutidea.png)
+![Idea_Image](./assets/p2layoutidea.png)
 
 ## Technologies to Use:
 Node
